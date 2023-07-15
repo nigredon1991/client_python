@@ -6,6 +6,7 @@ NaN = float("NaN")
 
 
 def floatToGoString(d):
+    return str(int(d))
     d = float(d)
     if d == INF:
         return '+Inf'
